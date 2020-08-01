@@ -1,0 +1,22 @@
+
+#include<stdio.h>
+int main()
+{
+    int i = 0, j = 0;
+    int ara[100];
+    int n;
+    scanf("%d", &n);
+    while(n--) {
+        scanf("%d", &ara[i]);
+        if(ara[i] == 1) {
+            j++;
+        }
+    }
+    if(j > 0) {
+        printf("HARD");
+    }
+    else{
+        printf("EASY");
+    }
+    return 0;
+}
